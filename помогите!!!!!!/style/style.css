@@ -1,0 +1,225 @@
+
+.page {
+  background-color: rgb(20, 20, 20);  
+  margin: auto;
+  width: 360px ;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+}
+
+.header_logo {
+    width: 78px;
+    height: 15px;
+    margin: 24px 0 0 24px;
+}
+
+.header_menu {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header_menu-item {
+    margin-bottom: 12px;
+}
+
+.header_menu-link {
+    color: aliceblue;
+    font-family: "inter" , Arial, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.cover {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 7px 0 30px 20px;
+}
+
+.cover_title {
+    display: table;
+  width: 100%;
+  height: 100px;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    font-family: "ebgramond", Arial, Helvetica, sans-serif;
+    font-size:  72px;
+    line-height: 100%;
+    font-weight: 400 ;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro {
+    color: aliceblue;
+}
+
+.intro_heading {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.intro_title {
+    margin: 10px;
+    font-size: 17px;
+    
+}
+
+.header-logo {
+height: 20px;
+padding: 10px;
+}
+
+.content-section__subtitle { 
+    margin: 10px ; 
+    margin-left: 10px; 
+    padding: 10px;
+
+ } 
+
+ .content-section_introduction { 
+     margin: 10px ; 
+     margin-left: 10px ;  
+     padding: 2px;
+ } 
+
+ .reasons { 
+     background-color: yellow; 
+ } 
+
+ .content-section__list { 
+     padding: 19px; 
+ } 
+
+ .content-section__list-item { 
+     padding: 5px;
+    }
+
+ .content-section__list-accent { 
+     text-transform: uppercase; 
+     font-weight: 700;   
+ } 
+
+ .how-to{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.content-section_subtitleL {
+    text-align: left;
+    margin: 10px;
+}
+
+.card__author-photo {
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.card_theme_dark {
+    background-color: rgb(52, 48, 48);
+    width: auto;
+    border-radius: 20px;
+}
+ 
+.card_theme_bright {
+    background-color: rgb(212, 229, 20);
+    width: auto;
+    border-radius: 20px;
+}
+
+.card__title {
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+}
+
+.card__text {
+    font-size: 16px;
+    color: black;
+    padding :10px;
+}
+
+.card__author-name {
+    margin: 10px;
+}
+
+.card_text-only {
+    margin: 10px;
+}
+
+.card__author {
+    margin: 10px;
+}
+
+.ogo {
+margin-top: 40px;
+background-color: rgb(20, 20, 20);
+border-top: 2px solid yellow;
+}
+
+.footer__copy {
+    color: aliceblue;
+    margin-right: 20px ;
+    margin-left: 20px ;
+}
+
+.footer__links {
+    text-align: right;
+    color: aliceblue;
+    font-size: 18px;
+    margin-right: 20px ;
+    margin-left: 20px ;
+}
+
+
+.accent-span1 {
+    display: table-row;
+    text-align: left;
+}
+.accent-span2 {
+    display: table-row;
+    text-align: center;
+}
+
+.accent-span3 {
+    display: table-row;
+    text-align: right;
+}
+
+.ogo2 {
+    color: rgb(255, 255, 255);
+    font-family: "inter" , Arial, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.content-section_subtitle {
+    padding-left: 9px;
+}
